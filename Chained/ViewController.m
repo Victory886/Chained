@@ -24,7 +24,7 @@
 
     CGRect frame = CGRectMake(100, 100, 100, 100);
     SLObjc *lab = [SLObjc it];
-    lab.fra(frame).bc(kCol.red).txt(@"发发少的发少的发发少少的发少的发发少少的发少的发发少的发第三方").
+    lab.fra(frame).bc(kCol.red).txt(@"测试").
         tc(kCol.yel).tf(14).ali_r.show(self.view).hid(@1).numL(0);
 }
 
