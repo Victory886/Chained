@@ -8,12 +8,15 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import "SLObjc.h"
 
+@class SLBtn;
 @interface SLObjc : UILabel
 
 typedef SLObjc *(^SLBlock)(id obj);
 typedef SLObjc *(^SLBlock_fre)(CGRect obj);
 typedef SLObjc *(^SLBlock_ft)(double obj);
+
 
 /// 初始化
 + (SLObjc *)it;
@@ -52,3 +55,5 @@ typedef SLObjc *(^SLBlock_ft)(double obj);
 - (SLBlock)show;
 
 @end
+
+

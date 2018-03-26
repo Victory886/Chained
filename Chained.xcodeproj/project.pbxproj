@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10916C3C205029AB00BBBE44 /* SLPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 10916C3B205029AB00BBBE44 /* SLPageControl.m */; };
+		10B4C50220525EFB00AD87F6 /* SLText.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B4C50120525EFB00AD87F6 /* SLText.m */; };
+		10B4C50520526A3B00AD87F6 /* SLBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B4C50420526A3B00AD87F6 /* SLBtn.m */; };
 		10BA151B1FC3E004009A2FCC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10BA151A1FC3E004009A2FCC /* AppDelegate.m */; };
 		10BA151E1FC3E004009A2FCC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10BA151D1FC3E004009A2FCC /* ViewController.m */; };
 		10BA15211FC3E004009A2FCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10BA151F1FC3E004009A2FCC /* Main.storyboard */; };
@@ -15,9 +18,16 @@
 		10BA15291FC3E004009A2FCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10BA15281FC3E004009A2FCC /* main.m */; };
 		10BA15311FC3E09C009A2FCC /* SLObjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 10BA15301FC3E09C009A2FCC /* SLObjc.m */; };
 		10BA15341FC3FCD5009A2FCC /* SLColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 10BA15331FC3FCD5009A2FCC /* SLColor.m */; };
+		10C0388B2068F98600983E4A /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 10C0388A2068F98500983E4A /* readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10916C3A205029AB00BBBE44 /* SLPageControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLPageControl.h; sourceTree = "<group>"; };
+		10916C3B205029AB00BBBE44 /* SLPageControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLPageControl.m; sourceTree = "<group>"; };
+		10B4C50020525EFB00AD87F6 /* SLText.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLText.h; sourceTree = "<group>"; };
+		10B4C50120525EFB00AD87F6 /* SLText.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLText.m; sourceTree = "<group>"; };
+		10B4C50320526A3B00AD87F6 /* SLBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLBtn.h; sourceTree = "<group>"; };
+		10B4C50420526A3B00AD87F6 /* SLBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLBtn.m; sourceTree = "<group>"; };
 		10BA15161FC3E004009A2FCC /* Chained.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chained.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10BA15191FC3E004009A2FCC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		10BA151A1FC3E004009A2FCC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -32,6 +42,7 @@
 		10BA15301FC3E09C009A2FCC /* SLObjc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLObjc.m; sourceTree = "<group>"; };
 		10BA15321FC3FCD5009A2FCC /* SLColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLColor.h; sourceTree = "<group>"; };
 		10BA15331FC3FCD5009A2FCC /* SLColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLColor.m; sourceTree = "<group>"; };
+		10C0388A2068F98500983E4A /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +59,7 @@
 		10BA150D1FC3E004009A2FCC = {
 			isa = PBXGroup;
 			children = (
+				10C0388A2068F98500983E4A /* readme.md */,
 				10BA15181FC3E004009A2FCC /* Chained */,
 				10BA15171FC3E004009A2FCC /* Products */,
 			);
@@ -68,8 +80,14 @@
 				10BA151A1FC3E004009A2FCC /* AppDelegate.m */,
 				10BA151C1FC3E004009A2FCC /* ViewController.h */,
 				10BA151D1FC3E004009A2FCC /* ViewController.m */,
+				10916C3A205029AB00BBBE44 /* SLPageControl.h */,
+				10916C3B205029AB00BBBE44 /* SLPageControl.m */,
 				10BA152F1FC3E09C009A2FCC /* SLObjc.h */,
 				10BA15301FC3E09C009A2FCC /* SLObjc.m */,
+				10B4C50320526A3B00AD87F6 /* SLBtn.h */,
+				10B4C50420526A3B00AD87F6 /* SLBtn.m */,
+				10B4C50020525EFB00AD87F6 /* SLText.h */,
+				10B4C50120525EFB00AD87F6 /* SLText.m */,
 				10BA15321FC3FCD5009A2FCC /* SLColor.h */,
 				10BA15331FC3FCD5009A2FCC /* SLColor.m */,
 				10BA151F1FC3E004009A2FCC /* Main.storyboard */,
@@ -141,6 +159,7 @@
 			files = (
 				10BA15261FC3E004009A2FCC /* LaunchScreen.storyboard in Resources */,
 				10BA15231FC3E004009A2FCC /* Assets.xcassets in Resources */,
+				10C0388B2068F98600983E4A /* readme.md in Resources */,
 				10BA15211FC3E004009A2FCC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,8 +172,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				10BA15311FC3E09C009A2FCC /* SLObjc.m in Sources */,
+				10916C3C205029AB00BBBE44 /* SLPageControl.m in Sources */,
 				10BA151E1FC3E004009A2FCC /* ViewController.m in Sources */,
+				10B4C50220525EFB00AD87F6 /* SLText.m in Sources */,
 				10BA15291FC3E004009A2FCC /* main.m in Sources */,
+				10B4C50520526A3B00AD87F6 /* SLBtn.m in Sources */,
 				10BA151B1FC3E004009A2FCC /* AppDelegate.m in Sources */,
 				10BA15341FC3FCD5009A2FCC /* SLColor.m in Sources */,
 			);
