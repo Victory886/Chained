@@ -14,9 +14,6 @@
 + (SLBtn *)it {
     
     return [SLBtn buttonWithType:(UIButtonTypeCustom)];
-
-    //
-    
 }
 
 
