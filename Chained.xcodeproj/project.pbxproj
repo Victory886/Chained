@@ -19,6 +19,7 @@
 		10BA15311FC3E09C009A2FCC /* SLObjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 10BA15301FC3E09C009A2FCC /* SLObjc.m */; };
 		10BA15341FC3FCD5009A2FCC /* SLColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 10BA15331FC3FCD5009A2FCC /* SLColor.m */; };
 		10C0388B2068F98600983E4A /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 10C0388A2068F98500983E4A /* readme.md */; };
+		10EE7C26208492570007D45D /* SLBaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 10EE7C25208492570007D45D /* SLBaseObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,8 @@
 		10BA15321FC3FCD5009A2FCC /* SLColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLColor.h; sourceTree = "<group>"; };
 		10BA15331FC3FCD5009A2FCC /* SLColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLColor.m; sourceTree = "<group>"; };
 		10C0388A2068F98500983E4A /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		10EE7C24208492570007D45D /* SLBaseObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLBaseObject.h; sourceTree = "<group>"; };
+		10EE7C25208492570007D45D /* SLBaseObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLBaseObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 				10916C3B205029AB00BBBE44 /* SLPageControl.m */,
 				10BA152F1FC3E09C009A2FCC /* SLObjc.h */,
 				10BA15301FC3E09C009A2FCC /* SLObjc.m */,
+				10EE7C24208492570007D45D /* SLBaseObject.h */,
+				10EE7C25208492570007D45D /* SLBaseObject.m */,
 				10B4C50320526A3B00AD87F6 /* SLBtn.h */,
 				10B4C50420526A3B00AD87F6 /* SLBtn.m */,
 				10B4C50020525EFB00AD87F6 /* SLText.h */,
@@ -177,6 +182,7 @@
 				10B4C50220525EFB00AD87F6 /* SLText.m in Sources */,
 				10BA15291FC3E004009A2FCC /* main.m in Sources */,
 				10B4C50520526A3B00AD87F6 /* SLBtn.m in Sources */,
+				10EE7C26208492570007D45D /* SLBaseObject.m in Sources */,
 				10BA151B1FC3E004009A2FCC /* AppDelegate.m in Sources */,
 				10BA15341FC3FCD5009A2FCC /* SLColor.m in Sources */,
 			);
