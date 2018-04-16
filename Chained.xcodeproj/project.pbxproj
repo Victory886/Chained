@@ -20,6 +20,10 @@
 		10BA15341FC3FCD5009A2FCC /* SLColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 10BA15331FC3FCD5009A2FCC /* SLColor.m */; };
 		10C0388B2068F98600983E4A /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 10C0388A2068F98500983E4A /* readme.md */; };
 		10EE7C26208492570007D45D /* SLBaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 10EE7C25208492570007D45D /* SLBaseObject.m */; };
+		10EE7C29208492CA0007D45D /* SLForView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10EE7C28208492CA0007D45D /* SLForView.m */; };
+		10EE7C2C208492D70007D45D /* SLForButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 10EE7C2B208492D70007D45D /* SLForButton.m */; };
+		10EE7C2F208492E60007D45D /* SLForLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 10EE7C2E208492E60007D45D /* SLForLabel.m */; };
+		10EE7C32208493050007D45D /* SLForCAlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 10EE7C31208493050007D45D /* SLForCAlayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +50,14 @@
 		10C0388A2068F98500983E4A /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		10EE7C24208492570007D45D /* SLBaseObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLBaseObject.h; sourceTree = "<group>"; };
 		10EE7C25208492570007D45D /* SLBaseObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLBaseObject.m; sourceTree = "<group>"; };
+		10EE7C27208492CA0007D45D /* SLForView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLForView.h; sourceTree = "<group>"; };
+		10EE7C28208492CA0007D45D /* SLForView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLForView.m; sourceTree = "<group>"; };
+		10EE7C2A208492D70007D45D /* SLForButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLForButton.h; sourceTree = "<group>"; };
+		10EE7C2B208492D70007D45D /* SLForButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLForButton.m; sourceTree = "<group>"; };
+		10EE7C2D208492E60007D45D /* SLForLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLForLabel.h; sourceTree = "<group>"; };
+		10EE7C2E208492E60007D45D /* SLForLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLForLabel.m; sourceTree = "<group>"; };
+		10EE7C30208493050007D45D /* SLForCAlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLForCAlayer.h; sourceTree = "<group>"; };
+		10EE7C31208493050007D45D /* SLForCAlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLForCAlayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +101,14 @@
 				10BA15301FC3E09C009A2FCC /* SLObjc.m */,
 				10EE7C24208492570007D45D /* SLBaseObject.h */,
 				10EE7C25208492570007D45D /* SLBaseObject.m */,
+				10EE7C27208492CA0007D45D /* SLForView.h */,
+				10EE7C28208492CA0007D45D /* SLForView.m */,
+				10EE7C2A208492D70007D45D /* SLForButton.h */,
+				10EE7C2B208492D70007D45D /* SLForButton.m */,
+				10EE7C2D208492E60007D45D /* SLForLabel.h */,
+				10EE7C2E208492E60007D45D /* SLForLabel.m */,
+				10EE7C30208493050007D45D /* SLForCAlayer.h */,
+				10EE7C31208493050007D45D /* SLForCAlayer.m */,
 				10B4C50320526A3B00AD87F6 /* SLBtn.h */,
 				10B4C50420526A3B00AD87F6 /* SLBtn.m */,
 				10B4C50020525EFB00AD87F6 /* SLText.h */,
@@ -177,12 +197,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				10BA15311FC3E09C009A2FCC /* SLObjc.m in Sources */,
+				10EE7C2F208492E60007D45D /* SLForLabel.m in Sources */,
 				10916C3C205029AB00BBBE44 /* SLPageControl.m in Sources */,
 				10BA151E1FC3E004009A2FCC /* ViewController.m in Sources */,
+				10EE7C29208492CA0007D45D /* SLForView.m in Sources */,
 				10B4C50220525EFB00AD87F6 /* SLText.m in Sources */,
 				10BA15291FC3E004009A2FCC /* main.m in Sources */,
 				10B4C50520526A3B00AD87F6 /* SLBtn.m in Sources */,
+				10EE7C2C208492D70007D45D /* SLForButton.m in Sources */,
 				10EE7C26208492570007D45D /* SLBaseObject.m in Sources */,
+				10EE7C32208493050007D45D /* SLForCAlayer.m in Sources */,
 				10BA151B1FC3E004009A2FCC /* AppDelegate.m in Sources */,
 				10BA15341FC3FCD5009A2FCC /* SLColor.m in Sources */,
 			);
